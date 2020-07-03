@@ -28,9 +28,9 @@ const Footer = () => {
         </div>
         </Col>
       </Row>
-      <Row className="rowContact">
-        <Col md={4}>
-          <div class="footer-copyright text-center py-3">
+      <Row className="rowContact mt-5">
+        <Col className="text-center mt-2">
+          <div class="container footer-copyright text-center py-3">
             © 2020 Copyright:
             <a href="/#"> Ariq Bimantoro</a>
           </div>

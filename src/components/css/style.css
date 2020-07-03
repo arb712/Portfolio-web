@@ -41,7 +41,8 @@ body{
     font-size: 80px;
 }
 .meImg{
-    width: 500px;
+    width: 100%;
+    height: auto;
     margin-top: 100px;
     border-radius: 30px 1px 30px 1px;;
 }
@@ -142,6 +143,11 @@ a:hover{
         font-size: 35px;
     }
 }
+@media all and (max-width:490px){
+    .whatSubText h2{
+        font-size: 20px;
+    }
+}
 /* @media all and (max-width: 768px) {
     .mainCard{
         width: 400px !important;
@@ -155,5 +161,20 @@ a:hover{
     }
     .contactSec{
         font-size: 10px !important;
+    }
+} */
+/* @media all and (max-width:991px){
+    .meImg{
+        width: 450px;
+        height: 300px;
+    }
+}
+@media all and (max-width:890px){
+    .meImg{
+        width: 400px;
+        height: 250px;
+    }
+    .colImage{
+        margin-top: 50px;
     }
 } */

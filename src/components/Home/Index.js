@@ -12,7 +12,7 @@ const Index = () => {
       <p>I'm a full-stack developer wannabe.</p>
       <Button variant="outline-info"><a href="https://github.com/arb712">My Past Project</a></Button>{' '}
     </Col>
-    <Col sm={6} className="d-flex justify-content-center">
+    <Col sm={6} className="d-flex justify-content-center colImage">
       <img alt="#" src={Me} className="meImg"></img>
     </Col>
   </Row>
