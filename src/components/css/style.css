@@ -134,7 +134,15 @@ a:hover{
 .iconCont{
     padding: 10px;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 457px){
+    .contactIcon2{
+        font-size: 25px;
+    }
+    .contactIcon{
+        font-size: 35px;
+    }
+}
+/* @media all and (max-width: 768px) {
     .mainCard{
         width: 400px !important;
         margin-left: 33px;
@@ -145,4 +153,7 @@ a:hover{
     .codePhp:before{
         margin-left: -20px !important;
     }
-}
+    .contactSec{
+        font-size: 10px !important;
+    }
+} */
