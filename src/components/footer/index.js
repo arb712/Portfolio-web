@@ -13,7 +13,7 @@ const Footer = () => {
             <a href="https://gitlab.com/arb712" className="contactIcon"><i className="fab fa-gitlab"></i></a>
             <a href="https://www.instagram.com/ariqbimantoro/" className="contactIcon"><i className="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/ariq-bimantoro-b7301a194" className="contactIcon"><i className="fab fa-linkedin"></i></a>
-            <a href="https://wa.me/082185647628" className="contactIcon"><i className="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/6282185647628" className="contactIcon"><i className="fab fa-whatsapp"></i></a>
             <a href="http://line.me/ti/p/~ariqbimantoro" className="contactIcon"><i className="fab fa-line"></i></a>
             </div>
         </Col>
