@@ -13,20 +13,21 @@ body{
     padding-bottom: 50px;
 }
 .navBar{
-    background-color: #58b4ae !important;
-    color: white !important;
+    background-image:linear-gradient(to right, #014871, #d7ede2) !important;
+    color: black !important;
 }
 .navLink{
     padding: 15px !important;
-    color: white !important;
+    color: #014871 !important;
     line-height: 30px;
 }
 .navLink:hover{
     display: block !important;
-    background-color: #6ee0d9 !important;
+    background-color: #1a4d6b !important;
 }
 .navbarBrand{
     color: white !important;
+    letter-spacing: 5px;
 }
 .navbarToggle{
     border-color: white !important;
@@ -36,6 +37,7 @@ body{
 }
 .colLandingQuotes{
     margin-top: 150px;
+    color:#1a4d6b;
 }
 .colLandingQuotes h1{
     font-size: 80px;
@@ -46,10 +48,17 @@ body{
     margin-top: 100px;
     border-radius: 30px 1px 30px 1px;;
 }
+.buttonProject{
+    border-color:#014871 !important;
+    background-color:white !important;
+}
+.buttonProject:hover{
+    background-color:#014871 !important;
+}
 .aboutContainer{
     margin:0;
     padding: 25px;
-    background-color: #58b4ae;
+    background-color: #1a4d6b;
     color: white;
 }
 .aboutContainer p{
@@ -57,7 +66,7 @@ body{
 }
 .whatText{
     font-size: 50px;
-    color: #58b4ae;
+    color: #1a4d6b;
     font-weight: lighter;
 }
 
@@ -66,7 +75,7 @@ body{
 }
 .codeIcon{
     font-size: 100px;
-    color: #58b4ae !important;
+    color: #1a4d6b !important;
 }
 .codeJs{
     font-size: 150px;
@@ -83,7 +92,7 @@ body{
     padding-top: 30px;
 }
 .jumbotronCode{
-    background-color: #58b4ae !important;
+    background-color: #1a4d6b !important;
     margin-bottom: 0px !important;
 }
 .jumbotronCode p{
@@ -103,16 +112,16 @@ a:hover{
     padding: 10px !important;
 }
 .buttonBt{
-    background-color:#58b4ae !important ;
-    border-color: #58b4ae !important;
+    background-color:#1a4d6b !important ;
+    border-color: #1a4d6b !important;
 }
 .underlineMain {
     width: 160px;
-    border-bottom:2px solid  #58b4ae;
+    border-bottom:2px solid  #1a4d6b;
   }
   .jumbotronFooter{
       margin-bottom: 0px !important;
-      background-color: #58b4ae !important;
+      background-color: #1a4d6b !important;
   }
 .footer-copyright{
     color: white;
@@ -127,10 +136,12 @@ a:hover{
 .contactIcon{
     font-size: 50px;
     padding: 10px;
+    color:#d7ede2 !important;
 }
 .contactIcon2{
     font-size: 30px;
     padding: 10px;
+    color:#d7ede2 !important;
 }
 .iconCont{
     padding: 10px;
@@ -146,6 +157,14 @@ a:hover{
 @media all and (max-width:490px){
     .whatSubText h2{
         font-size: 20px;
+    }
+}
+@media all and (max-width:991px){
+    .navLink{
+        color: white !important;
+    }
+    .navLink:hover{
+        background-color: transparent !important;
     }
 }
 /* @media all and (max-width: 768px) {

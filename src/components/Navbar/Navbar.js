@@ -6,7 +6,7 @@ import { Navbar, Nav, NavbarBrand } from "react-bootstrap";
 const Navibar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className="navBar">
-      <NavbarBrand className="navbarBrand ml-5">Ariq Bimantoro</NavbarBrand>
+      <NavbarBrand className="navbarBrand ml-5">ARIQ BIMANTORO</NavbarBrand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbarToggle"/>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto mr-5">
