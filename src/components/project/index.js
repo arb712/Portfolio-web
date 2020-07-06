@@ -17,7 +17,7 @@ const Index = () => {
                 <Col xs={3} className="text-center whatSubText1">
                 <i className="codeIcon fa fa-window-maximize"></i>
                 </Col>
-                <Col xs={4} className="text-center whatSubText">
+                <Col xs={4} className="text-center whatSubText ml-3">
                     <h2>Build Website</h2>
                     <h2>Based on ReactJS</h2>
                 </Col>
@@ -27,7 +27,7 @@ const Index = () => {
             <Row className="d-flex align-content-center text-center pt-5 mt-5">
                 <Col xs={3}>
                 </Col>
-                <Col xs={4} className="text-center whatSubText">
+                <Col xs={4} className="text-center whatSubText mr-3">
                     <h2>Build Responsive Website</h2>
                 </Col>
                 <Col xs={3} className="text-center whatSubText1">
