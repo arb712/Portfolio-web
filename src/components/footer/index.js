@@ -24,7 +24,6 @@ const Footer = () => {
             <h4>Contact Me :</h4>
         <a href="mailto:ariqbimantoro@gmail.com" className="contactIcon2"><i className="fa fa-envelope iconCont"></i>ariqbimantoro@gmail.com</a>
            <br></br>
-            <a href="tel:082185647628" className="contactIcon2"><i className="fas fa-phone-square-alt iconCont"></i>082185647628</a>
         </div>
         </Col>
       </Row>
